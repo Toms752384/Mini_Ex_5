@@ -13,7 +13,11 @@
         android:theme="@style/Theme.Mini_Ex_5"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.mini_ex_5.FormActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name="com.example.mini_ex_5.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
